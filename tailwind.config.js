@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["Ubuntu", "sans-serif;"],
+        extra: ["Open Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

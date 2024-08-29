@@ -4,7 +4,9 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import Header from './components/Header'
+import Header from './components/Header';
+import Section from './components/Section';
+import ProjectCard from './components/ProjectCard';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
     </BrowserRouter>
+    <Section title={"Personal Projects"} description={"Here are some of the latest projects I've recently completed."}/>
+    <ProjectCard />
     </>
   )
 }
