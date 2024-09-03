@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <header className="bg-slate-100 shadow-md ">
-        <div className="flex justify-between items-center px-4 py-4 mx-auto max-w-screen-md">
+    <header className="bg-slate-100 shadow-sm ">
+        <div className="flex justify-between items-center px-4 py-4 mx-auto max-w-screen-sm">
             <h1 className="font-custom text-sm sm:text-xl flex flex-wrap text-slate-600">CGN</h1>
             <ul className="flex gap-4">
                 <Link to="/home">

@@ -44,10 +44,10 @@ function Card({photoName, photoText, name, description, stack}) {
   
   return (
     /* ---- CARD COMPONENT -----*/
-    <div className="flex flex-col justify-center max-w-lg mx-2 my-4 px-6 py-4 bg-gray-200 bg-opacity-50 rounded-2xl box-border hover:bg-opacity-80 cursor-pointer " >
+    <div className="flex flex-col justify-center max-w-lg m-4 p-6 bg-gray-200 bg-opacity-50 rounded-2xl box-border hover:bg-opacity-80 cursor-pointer " >
         <img src={photoName} alt={photoText} className="my-4 shadow-md rounded-2xl"/> 
         <h1 className="text-bold text-xl font-custom py-0.5 font-medium text-slate-800">{name}</h1>
-        <p className="text-md font-extra font-neutral text-slate-700">{description}</p>
+        <p className="text-md font-extra font-neutral text-slate-600 mb-3">{description}</p>
         <span className="text-md font-extra font-neutral text-slate-500">{stack}</span>
     </div>
 
