@@ -2,7 +2,9 @@ import React from 'react'
 import sliceStreet from '../assets/SliceStreet_Project_Screenshot.jpg';
 import nlsSignup from '../assets/Nls-Signup-Frontend.jpg';
 import nebulaProject from '../assets/NP-Frontend-Page.jpg';
+import faqsProject from '../assets/FAQs-project-screenshot.jpg';
 import { Link } from 'react-router-dom';
+
 
 export default function ProjectCard() {
 
@@ -34,11 +36,12 @@ export default function ProjectCard() {
           stack="UI design | HTML | CSS | React | Netlify"
           />
           <Card 
-          photoName={sliceStreet}
-          photoText= {"Screenshot of Slice Street website project."}
-          name="Slice Stree Pizza"
-          description="React web app project for a fun pizza restaurant. "
-          stack="UI design | HTML | CSS | React"
+          projectLink={"https://faq-accordion-challenge.netlify.app/"}
+          photoName={faqsProject}
+          photoText= {"Screenshot of FAQs project from FrontEnd Mentor."}
+          name="FAQs Accordion"
+          description="Frontend Mentor challenge project of a FAQs page.  "
+          stack="UI design | HTML | CSS | JavaScript"
           />
         </div>
     </div>

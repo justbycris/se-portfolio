@@ -14,7 +14,7 @@ export default function Contact() {
       <Social channel="Email" value="cristigtzname@gmail.com"/>
       <Social channel="GitHub" url="https://github.com/justbycris" value="git/justbycris"/>
       <Social channel="LinkedIn" url="https://www.linkedin.com/in/cristigtzname/" value="in/cristigtzname"/>
-      <Social channel="Twitter" url="https://x.com/justbycris" value="@justbycris"/>
+      <Social channel="JSfiddle" url="https://jsfiddle.net/user/fiddles/" value="justbycris"/>
     </div>
     <Footer/>
     </>

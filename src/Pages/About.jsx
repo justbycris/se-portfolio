@@ -4,7 +4,8 @@ import Text from '../components/Text';
 import Experience from '../components/Experience';
 import nebulaImg from '../assets/NebulaProject-Logo.png';
 import NRlogo from '../assets/NR-logo.png';
-import pursuitLogo from '../assets/pursuit-logo-.png'
+import pursuitLogo from '../assets/pursuit-logo-.png';
+import Footer from '../components/Footer';
 
 export default function About() {
   return ( 
@@ -17,6 +18,8 @@ export default function About() {
             <Experience logo={NRlogo} alt="NR Magazine logo graphic." company="NR Magazine" role="Graphic Designer & Web Developer" start="November 2020" end="Current" />
             <Experience logo={pursuitLogo} alt="Pursuit logo graphic." company="Pursuit" role="Digital Designer" start="November 2019" end="May 2020" />
         </div>
+    {/*----Footer----*/}
+    <Footer/>
     </div>
   )
 }
