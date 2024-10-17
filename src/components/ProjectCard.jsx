@@ -3,6 +3,7 @@ import sliceStreet from '../assets/SliceStreet_Project_Screenshot.jpg';
 import nlsSignup from '../assets/Nls-Signup-Frontend.jpg';
 import nebulaProject from '../assets/NP-Frontend-Page.jpg';
 import faqsProject from '../assets/FAQs-project-screenshot.jpg';
+import bloggy from '../assets/Bloggy_Project_Screenshot.jpg';
 import { Link } from 'react-router-dom';
 
 
@@ -24,7 +25,7 @@ export default function ProjectCard() {
           photoName={nlsSignup}
           photoText= {"Newsletter signup window screenshot. "}
           name="Newsletter Sign Up page"
-          description="Desgined & developed a responsive newsletter sign up page.  "
+          description="Designed & developed a responsive newsletter sign up page.  "
           stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
           />
           <Card 
@@ -42,6 +43,14 @@ export default function ProjectCard() {
           name="FAQs Accordion"
           description="Frontend Mentor challenge project of a FAQs page.  "
           stack="UI design | HTML | CSS | JavaScript"
+          />
+          <Card 
+          projectLink={"https://blog-for-funsies.onrender.com/"}
+          photoName={bloggy}
+          photoText= {"Screenshot of a blog web app project I called Bloggy."}
+          name="Bloggy"
+          description="A fun blog application posts project created with backend and."
+          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Git | Render"
           />
         </div>
     </div>
