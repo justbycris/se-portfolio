@@ -37,20 +37,20 @@ export default function ProjectCard() {
           stack="UI design | HTML | CSS | React | Netlify"
           />
           <Card 
+          projectLink={"https://blog-for-funsies.onrender.com/"}
+          photoName={bloggy}
+          photoText= {"Screenshot of a blog web app project I called Bloggy."}
+          name="Bloggy"
+          description="Fun blog app project created with the MERN stack."
+          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Render"
+          />
+          <Card 
           projectLink={"https://faq-accordion-challenge.netlify.app/"}
           photoName={faqsProject}
           photoText= {"Screenshot of FAQs project from FrontEnd Mentor."}
           name="FAQs Accordion"
           description="Frontend Mentor challenge project of a FAQs page.  "
           stack="UI design | HTML | CSS | JavaScript"
-          />
-          <Card 
-          projectLink={"https://blog-for-funsies.onrender.com/"}
-          photoName={bloggy}
-          photoText= {"Screenshot of a blog web app project I called Bloggy."}
-          name="Bloggy"
-          description="A fun blog application posts project created with backend and."
-          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Git | Render"
           />
         </div>
     </div>
