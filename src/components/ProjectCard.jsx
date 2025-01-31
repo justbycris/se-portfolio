@@ -4,6 +4,7 @@ import nlsSignup from '../assets/Nls-Signup-Frontend.jpg';
 import nebulaProject from '../assets/NP-Frontend-Page.jpg';
 import faqsProject from '../assets/FAQs-project-screenshot.jpg';
 import bloggy from '../assets/Bloggy_Project_Screenshot.jpg';
+import BrewTrail from '../assets/BrewTrail.jpg';
 import { Link } from 'react-router-dom';
 
 
@@ -28,6 +29,14 @@ export default function ProjectCard() {
           description="Designed & developed a responsive newsletter sign up page.  "
           stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
           />
+           <Card 
+          projectLink={"https://brewtrail.netlify.app/"}
+          photoName={BrewTrail}
+          photoText= {"Screenshot of BrewTrail project."}
+          name="BrewTrail"
+          description="Brewery search engine.   "
+          stack="UI design | HTML | CSS | JavaScript | API"
+          />
           <Card 
           projectLink={"https://slice-street-pizza.netlify.app/"}
           photoName={sliceStreet}
@@ -44,14 +53,16 @@ export default function ProjectCard() {
           description="Fun blog app project created with the MERN stack."
           stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Render"
           />
-          <Card 
+          {/* <Card 
           projectLink={"https://faq-accordion-challenge.netlify.app/"}
           photoName={faqsProject}
           photoText= {"Screenshot of FAQs project from FrontEnd Mentor."}
           name="FAQs Accordion"
           description="Frontend Mentor challenge project of a FAQs page.  "
           stack="UI design | HTML | CSS | JavaScript"
-          />
+          /> */}
+         
+          
         </div>
     </div>
   )
