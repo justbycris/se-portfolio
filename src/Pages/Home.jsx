@@ -10,8 +10,6 @@ import CustomCursor from "../assets/blob.svg";
 export default function Home() {
   return (
     <div>
-      
-      <h1>This is a test</h1>
       <Header />
         <Text 
     header={"Hola! I'm Cristi." } 
