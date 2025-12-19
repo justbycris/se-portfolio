@@ -4,11 +4,19 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-
+// import CustomCursor from "../assets/blob.svg";
 
 function App() {
   return (
     <>
+     <style>
+        {`
+          /* Apply custom cursor globally and for all states */
+          html, body {
+            cursor: url('./assets/blob.svg'), auto;
+          }
+        `}
+      </style>
     <BrowserRouter>
     {/*----Nav Menu----*/}
       <Routes>

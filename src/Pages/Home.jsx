@@ -5,11 +5,14 @@ import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer'
 import Button from '../components/Button'
+import CustomCursor from "../assets/blob.svg";
 
 export default function Home() {
   return (
     <div>
-      <Header/>
+      
+      <h1>This is a test</h1>
+      <Header />
         <Text 
     header={"Hola! I'm Cristi." } 
     subtitle={"Designer & frontend software engineer from Veracruz, Mexico based in NYC."}
