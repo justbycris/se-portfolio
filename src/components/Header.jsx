@@ -16,6 +16,9 @@ export default function Header() {
                 <Link to="/contact">
                 <li className=" text-slate-700 hover:underline cursor-pointer font-extra">contact</li>
                 </Link>
+                <Link to="https://github.com/justbycris" target='_blank'>
+                <li className=" text-slate-700 hover:underline cursor-pointer font-extra">github</li>
+                </Link>
             </ul>
         </div>
     </header>

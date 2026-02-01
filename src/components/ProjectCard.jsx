@@ -21,13 +21,13 @@ export default function ProjectCard() {
           description="Fun landing page for a freelance creative agency."
           stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
           />
-          <Card 
-          projectLink={"https://newsletter-signup-frontend.netlify.app/"}
-          photoName={nlsSignup}
-          photoText= {"Newsletter signup window screenshot. "}
-          name="Newsletter Sign Up page"
-          description="Designed & developed a responsive newsletter sign up page.  "
-          stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
+           <Card 
+          projectLink={"https://blog-for-funsies.onrender.com/"}
+          photoName={bloggy}
+          photoText= {"Screenshot of a blog web app project I called Bloggy."}
+          name="Bloggy"
+          description="Fun blog app project created with the MERN stack."
+          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Render"
           />
            <Card 
           projectLink={"https://brewtrail.netlify.app/"}
@@ -38,20 +38,20 @@ export default function ProjectCard() {
           stack="UI design | HTML | CSS | JavaScript | API"
           />
           <Card 
+          projectLink={"https://newsletter-signup-frontend.netlify.app/"}
+          photoName={nlsSignup}
+          photoText= {"Newsletter signup window screenshot. "}
+          name="Newsletter Sign Up page"
+          description="Designed & developed a responsive newsletter sign up page.  "
+          stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
+          />
+          <Card 
           projectLink={"https://slice-street-pizza.netlify.app/"}
           photoName={sliceStreet}
           photoText= {"Screenshot of Slice Street website project."}
           name="Slice Stree Pizza"
           description="React web app project for a fun pizza restaurant. "
           stack="UI design | HTML | CSS | React | Netlify"
-          />
-          <Card 
-          projectLink={"https://blog-for-funsies.onrender.com/"}
-          photoName={bloggy}
-          photoText= {"Screenshot of a blog web app project I called Bloggy."}
-          name="Bloggy"
-          description="Fun blog app project created with the MERN stack."
-          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Render"
           />
           {/* <Card 
           projectLink={"https://faq-accordion-challenge.netlify.app/"}
