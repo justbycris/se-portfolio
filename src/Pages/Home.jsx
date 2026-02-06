@@ -14,7 +14,7 @@ export default function Home() {
         <Text 
     header={"Hola! I'm Cristi." } 
     subtitle={"Designer & software engineer from Veracruz, Mexico based in NYC."}
-    copy={"I'm passionate about crafting visually captivating and functional designs. I adapt quickly to new tools and trends, delivering high quality designs and web applications."}
+    copy={"My approach to code and life is led by curiosity. I believe that learning continuously and sharing knowledge openly are how we build truly impactful products, systems, relationships, and experiences."}
     />
     <Button buttonLink="/about" label="Learn More"></Button>
     <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-300 w-1/4 mx-auto"></hr>

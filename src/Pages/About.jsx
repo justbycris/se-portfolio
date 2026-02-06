@@ -12,7 +12,7 @@ export default function About() {
   return ( 
     <div>
         <Header/>
-        <Text header="About" copy="I'm a Designer and Software Engineer passionate about creating visually captivating and functional designs. I adapt quickly to new tools and trends, ensuring my work is industry-leading. My project management skills and teamwork enable high-quality results on tight deadlines. I excel in dynamic environments, creating user experiences that meet and exceed client expectations."/>
+        <Text header="About" copy="I'm currently a Solutions Engineer at Persado, working at the intersection of engineering and customer success. I love solving technical challenges for enterprise customers, building tools that improve workflows, and creating documentation that empowers developers. I believe the best products come from deep customer empathy and continuous iteration."/>
         <div className="flex flex-col justify-center max-w-xl m-auto px-3 pt-20 pb-5">
         <h2 className="text-bold text-2xl font-custom py-0.5 font-medium text-slate-800 mb-8">Experience</h2>
             <Experience logo={Persadologo} alt="Persado company logo." company="Persado" role="Software Engineer | Service Delivery" start="February 2025" end="Present" />  
