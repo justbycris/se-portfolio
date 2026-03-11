@@ -2,7 +2,7 @@ import React from 'react'
 import sliceStreet from '../assets/SliceStreet_Project_Screenshot.jpg';
 import nlsSignup from '../assets/Nls-Signup-Frontend.jpg';
 import nebulaProject from '../assets/NP-Frontend-Page.jpg';
-import faqsProject from '../assets/FAQs-project-screenshot.jpg';
+import securityHeader from '../assets/Security-Header-Checker.jpg';
 import bloggy from '../assets/Bloggy_Project_Screenshot.jpg';
 import BrewTrail from '../assets/BrewTrail.jpg';
 import { Link } from 'react-router-dom';
@@ -13,13 +13,13 @@ export default function ProjectCard() {
   return (
     <div>
         <div className="flex flex-row justify-center w-full m-auto px-3 py-0 md: flex-wrap">
-        <Card 
-          projectLink={"https://nebulaproject.netlify.app/#section1"}
-          photoName={nebulaProject}
-          photoText= {"Nebula project landing page."}
-          name="Nebula Project"
-          description="Fun landing page for a freelance creative agency."
-          stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
+         <Card 
+          projectLink={"https://security-header-checker.vercel.app/"}
+          photoName={securityHeader}
+          photoText= {"HTTP Headers Scanner"}
+          name="HTTP Headers Security Scanner"
+          description="HTTP Header scanner that provides a security score."
+          stack="Full-Stack | JS | Node/Express | DNS Lookup | Axios"
           />
            <Card 
           projectLink={"https://blog-for-funsies.onrender.com/"}
@@ -44,6 +44,14 @@ export default function ProjectCard() {
           name="Newsletter Sign Up page"
           description="Designed & developed a responsive newsletter sign up page.  "
           stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
+          />
+          <Card 
+          projectLink={"https://nebulaproject.netlify.app/#section1"}
+          photoName={nebulaProject}
+          photoText= {"Nebula project landing page."}
+          name="Nebula Project"
+          description="Fun landing page for a freelance creative agency."
+          stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
           />
           <Card 
           projectLink={"https://slice-street-pizza.netlify.app/"}
