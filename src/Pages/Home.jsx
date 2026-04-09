@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
         <Text 
     header={"Hola! I'm Cristi." } 
-    subtitle={"Designer & Software Engineer from Veracruz, Mexico based in NYC."}
+    subtitle={"I design things, then build them. Frontend engineer with a designer's eye. Currently at Persado, building email at scale."}
     copy={"My approach to code and life is led by curiosity. I believe that learning continuously and sharing knowledge openly are how we build truly impactful products, systems, relationships, and experiences."}
     />
     <Button buttonLink="/about" label="Learn More"></Button>

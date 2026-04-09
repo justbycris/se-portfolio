@@ -34,8 +34,8 @@ export default function ProjectCard() {
           photoName={BrewTrail}
           photoText= {"Screenshot of BrewTrail project."}
           name="BrewTrail"
-          description="Brewery search engine.   "
-          stack="UI design | HTML | CSS | JavaScript | API"
+          description="Fun brewery search engine. "
+          stack="UX/UI | HTML | CSS | JavaScript | API"
           />
           <Card 
           projectLink={"https://newsletter-signup-frontend.netlify.app/"}
