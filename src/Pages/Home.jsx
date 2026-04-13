@@ -22,20 +22,6 @@ export default function Home() {
     <div>
      
       <Header />
-<<<<<<< HEAD
-        <Text 
-    header={"Hola! I'm Cristi." } 
-    subtitle={"I design things, then build them. Frontend engineer with a designer's eye. Currently at Persado, building email at scale."}
-    copy={"My approach to code and life is led by curiosity. I believe that learning continuously and sharing knowledge openly are how we build truly impactful products, systems, relationships, and experiences."}
-    />
-    <Button buttonLink="/about" label="Learn More"></Button>
-    <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-300 w-1/4 mx-auto"></hr>
-    {/*----Personal Projects----*/}
-    <Section title={"Personal Projects"} description={"Here are some of the latest projects I've recently completed."}/>
-    <ProjectCard />
-    {/*----Footer----*/}
-    <Footer/>
-=======
      
     {loading ? (
     //SKELETON EFFECT
@@ -84,7 +70,6 @@ export default function Home() {
       </div>
   )}
         
->>>>>>> cb87a25a8931dc8f787a8e719c81e4300ca03cb5
     </div>
   )
 }
