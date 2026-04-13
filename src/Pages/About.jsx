@@ -12,7 +12,7 @@ export default function About() {
   return ( 
     <div>
         <Header/>
-        <Text header="About" copy="I'm a frontend engineer and designer who cares about the space where code meets craft. I build interfaces that are as considered as they are functional — from design system components to developer tools — and I'm happiest when the thing I shipped looks exactly the way I imagined it. Currently at Persado, where I work at the intersection of engineering and product."/>
+        <Text header="About" copy="I'm a frontend engineer and designer who cares about the space where code meets craft. I build interfaces that are as considered as they are functional, from design system components to developer tools, and I'm happiest when the thing I shipped looks exactly the way I imagined it. Currently at Persado, where I work at the intersection of engineering and product."/>
         <div className="flex flex-col justify-center max-w-xl m-auto px-3 pt-20 pb-5">
         <h2 className="text-bold text-2xl font-custom py-0.5 font-medium text-slate-800 mb-8">Experience</h2>
             <Experience logo={Persadologo} alt="Persado company logo." company="Persado" role="Frontend Software Engineer | Service Delivery" start="February 2025" end="Present" />  
