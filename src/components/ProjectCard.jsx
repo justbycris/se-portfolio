@@ -22,14 +22,6 @@ export default function ProjectCard() {
           stack="Full-Stack | JS | Node/Express | DNS Lookup | Axios"
           />
            <Card 
-          projectLink={"https://blog-for-funsies.onrender.com/"}
-          photoName={bloggy}
-          photoText= {"Screenshot of a blog web app project I called Bloggy."}
-          name="Bloggy"
-          description="Fun blog app project created with the MERN stack."
-          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Render"
-          />
-           <Card 
           projectLink={"https://brewtrail.netlify.app/"}
           photoName={BrewTrail}
           photoText= {"Screenshot of BrewTrail project."}
@@ -60,6 +52,14 @@ export default function ProjectCard() {
           name="Slice Stree Pizza"
           description="React web app project for a fun pizza restaurant. "
           stack="UI design | HTML | CSS | React | Netlify"
+          />
+           <Card 
+          projectLink={"https://blog-for-funsies.onrender.com/"}
+          photoName={bloggy}
+          photoText= {"Screenshot of a blog web app project I called Bloggy."}
+          name="Bloggy"
+          description="Fun blog app project created with the MERN stack."
+          stack="HTML | CSS | JavaScript | EJS | Express | Node.js | Render"
           />
           {/* <Card 
           projectLink={"https://faq-accordion-challenge.netlify.app/"}
