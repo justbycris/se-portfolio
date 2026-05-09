@@ -13,22 +13,15 @@ export default function ProjectCard() {
   return (
     <div>
         <div className="flex flex-row justify-center w-full m-auto px-3 py-0 md: flex-wrap">
-         <Card 
-          projectLink={"https://security-header-checker.vercel.app/"}
-          photoName={securityHeader}
-          photoText= {"HTTP Headers Scanner"}
-          name="HTTP Headers Security Scanner"
-          description="HTTP Header scanner that provides a security score."
-          stack="Full-Stack | JS | Node/Express | DNS Lookup | Axios"
+          <Card 
+          projectLink={"https://nebulaproject.netlify.app/#section1"}
+          photoName={nebulaProject}
+          photoText= {"Nebula project landing page."}
+          name="Nebula Project"
+          description="Fun landing page for a freelance creative agency."
+          stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
           />
-           <Card 
-          projectLink={"https://brewtrail.netlify.app/"}
-          photoName={BrewTrail}
-          photoText= {"Screenshot of BrewTrail project."}
-          name="BrewTrail"
-          description="Fun brewery search engine. "
-          stack="UX/UI | HTML | CSS | JavaScript | API"
-          />
+          
           <Card 
           projectLink={"https://newsletter-signup-frontend.netlify.app/"}
           photoName={nlsSignup}
@@ -37,13 +30,22 @@ export default function ProjectCard() {
           description="Designed & developed a responsive newsletter sign up page.  "
           stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
           />
+           
           <Card 
-          projectLink={"https://nebulaproject.netlify.app/#section1"}
-          photoName={nebulaProject}
-          photoText= {"Nebula project landing page."}
-          name="Nebula Project"
-          description="Fun landing page for a freelance creative agency."
-          stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
+          projectLink={"https://security-header-checker.vercel.app/"}
+          photoName={securityHeader}
+          photoText= {"HTTP Headers Scanner"}
+          name="HTTP Headers Security Scanner"
+          description="HTTP Header scanner that provides a security score."
+          stack="Full-Stack | JS | Node/Express | DNS Lookup | Axios"
+          />
+          <Card 
+          projectLink={"https://brewtrail.netlify.app/"}
+          photoName={BrewTrail}
+          photoText= {"Screenshot of BrewTrail project."}
+          name="BrewTrail"
+          description="Fun brewery search engine. "
+          stack="UX/UI | HTML | CSS | JavaScript | API"
           />
           <Card 
           projectLink={"https://slice-street-pizza.netlify.app/"}
