@@ -101,10 +101,12 @@ export default function ProjectCard() {
 
 function Card({projectLink, photoName, photoText, name, description, stack}) {
   
+    const isExternal = projectLink.startsWith("http");
+
   return (
     /* ---- CARD COMPONENT -----*/
     <div className="flex flex-col justify-center max-w-lg m-4 p-6 bg-gray-200 bg-opacity-50 rounded-2xl box-border hover:bg-opacity-80 cursor-pointer " >
-      <Link to={projectLink} target="_blank">
+      <Link to={projectLink}  {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}>
         <img src={photoName} alt={photoText} className="my-4 shadow-md rounded-2xl"/> 
         <h1 className="text-bold text-xl font-custom py-0.5 font-medium text-slate-800">{name}</h1>
         <p className="text-md font-extra font-neutral text-slate-600 mb-3">{description}</p>
