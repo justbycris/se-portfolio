@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
 import Kindred from './Pages/projects/kindred.jsx';
+import ScrollToTop from "./components/ScrollTop.jsx";
 // import CustomCursor from "../assets/blob.svg";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         `}
       </style>
     <BrowserRouter>
+     <ScrollToTop />
     {/*----Nav Menu----*/}
       <Routes>
         <Route path="/" element={<Home />}></Route>

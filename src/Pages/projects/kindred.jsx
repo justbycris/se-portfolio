@@ -41,7 +41,7 @@ export default function Kindred() {
           <div className=" max-w-2xl mx-auto p-8">
        <h1 className="font-medium py-4 font-extra text-lg text-slate-600">Kindred</h1>
        
-       <img src={kindredGif} alt={`Image of project: `} className="pt-2 pb-6 my-8" />
+       <img src={kindredGif} alt={`Image of project: `} className="pt-2 pb-6 my-8" loading="lazy"/>
        <p className="font-extra text-md text-slate-600">Kindred is a redesign project for Kindred's website. 
         The goal of this project was to create a more intuitive and visually appealing search form that 
         improves the user search experience. The redesign focused on improving intuitiveness, enhancing 
@@ -49,7 +49,7 @@ export default function Kindred() {
        
        <div className="flex flex-row my-8 rounded-md">
         
-        <img src={kindredActiveScreenshot} alt={`Image 3 of project: `} className="block size-4/4 py-6  mx-auto p-1"/>
+        <img src={kindredActiveScreenshot} alt={`Image 3 of project: `} className="block size-4/4 py-6  mx-auto p-1" loading="lazy"/>
        </div>
        <p className="font-extra text-md text-slate-600 whitespace-pre-line" >
         
@@ -65,7 +65,7 @@ making it difficult for users to understand within the first few seconds of use 
          and relationship of the elements.
         <div className="flex flex-row mb-8  rounded-md my-6">
 
-        <img src={kindredDashboard} alt='Image with the original Kindred search form and sketched notes about the improvements mentioned above. By Cristi Name.' className="block size-4/4 py-6  mx-auto p-1" />
+        <img src={kindredDashboard} alt='Image with the original Kindred search form and sketched notes about the improvements mentioned above. By Cristi Name.' className="block size-4/4 py-6  mx-auto p-1" loading="lazy" />
         </div>
 
        
