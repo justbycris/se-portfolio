@@ -15,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
 
   return (
@@ -54,17 +54,8 @@ export default function Home() {
   ) : (
   // What goes here?
   <div>
-  
-  <Text 
-      header={"Hola! I'm Cristi." } 
-      subtitle={"Designer & Frontend Engineer based in NYC."}
-      copy={"My approach to code and life is led by curiosity. I believe that learning continuously, open knowledge sharing, and empathy are how we build truly impactful products, systems, relationships, and experiences."}
-      />
-      <Button buttonLink="/about" label="Learn More"></Button>
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-300 w-1/4 mx-auto"></hr>
-      {/*----Personal Projects----*/}
-      <Section title={"Personal Projects"} description={"Here are some of the latest web and design projects I've recently completed."}/>
-      <ProjectCard />
+
+      
       {/*----Footer----*/}
       <Footer/>
       </div>

@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Blog from './Pages/Blog';
+import Kindred from './Pages/projects/kindred.jsx';
 // import CustomCursor from "../assets/blob.svg";
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
+        <Route path="/kindred" element={<Kindred />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>

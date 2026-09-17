@@ -5,6 +5,8 @@ import nebulaProject from '../assets/NP-Frontend-Page.jpg';
 import securityHeader from '../assets/Security-Header-Checker.jpg';
 import bloggy from '../assets/Bloggy_Project_Screenshot.jpg';
 import BrewTrail from '../assets/BrewTrail.jpg';
+import DesignWork from '../assets/design.jpg'
+import kindredGifHome from '../assets/kindred-home-card.gif'
 import { Link } from 'react-router-dom';
 
 
@@ -21,6 +23,16 @@ export default function ProjectCard() {
           description="Fun landing page for a freelance creative agency."
           stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
           />
+ 
+          <Card 
+          projectLink={"/kindred"}
+          photoName={kindredGifHome}
+          photoText= {"Kindred project redesign."}
+          name="Kindred"
+          description="Redesign of Kindred's website search form component."
+          stack="UX/UI | HTML | CSS | JavaScript | Git | Netlify"
+          />
+
           
           <Card 
           projectLink={"https://newsletter-signup-frontend.netlify.app/"}
@@ -46,6 +58,14 @@ export default function ProjectCard() {
           name="BrewTrail"
           description="Fun brewery search engine. "
           stack="UX/UI | HTML | CSS | JavaScript | API"
+          />
+           <Card 
+          projectLink={"https://cristiguti.wixsite.com/design"}
+          photoName={DesignWork}
+          photoText= {"Screenshot of my design website."}
+          name="Design Work"
+          description="Check out my photography, graphic and digital design work. "
+          stack="Graphic Design | Photography | Adobe Suite"
           />
           <Card 
           projectLink={"https://slice-street-pizza.netlify.app/"}

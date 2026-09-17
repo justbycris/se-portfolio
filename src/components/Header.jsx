@@ -10,6 +10,9 @@ export default function Header() {
                 <Link to="/home">
                 <li className=" text-slate-700 bg-gray-100 hover:underline cursor-pointer font-extra">home</li>
                 </Link>
+                {/* <Link to="/projects">
+                <li className=" text-slate-700 bg-gray-100 hover:underline cursor-pointer font-extra">projects</li>
+                </Link> */}
                 <Link to="/about">
                 <li className=" text-slate-700 hover:underline cursor-pointer font-extra">about</li>
                 </Link>
