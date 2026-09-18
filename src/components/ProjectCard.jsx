@@ -29,7 +29,7 @@ export default function ProjectCard() {
           photoName={kindredGifHome}
           photoText= {"Kindred project redesign."}
           name="Kindred"
-          description="Redesign of Kindred's website search form component."
+          description="Redesign of Kindred's browsing component."
           stack="UX/UI | HTML | CSS | JavaScript | Git | Netlify"
           />
 
