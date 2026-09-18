@@ -33,6 +33,15 @@ export default function ProjectCard() {
           stack="UX/UI | HTML | CSS | JavaScript | Git | Netlify"
           />
 
+          <Card 
+          projectLink={"https://cristiguti.wixsite.com/design"}
+          photoName={DesignWork}
+          photoText= {"Screenshot of my design website."}
+          name="Design Work"
+          description="Check out my photography, graphic and digital design work. "
+          stack="Graphic Design | Photography | Adobe Suite"
+          />
+
           
           <Card 
           projectLink={"https://newsletter-signup-frontend.netlify.app/"}
@@ -59,14 +68,7 @@ export default function ProjectCard() {
           description="Fun brewery search engine. "
           stack="UX/UI | HTML | CSS | JavaScript | API"
           />
-           <Card 
-          projectLink={"https://cristiguti.wixsite.com/design"}
-          photoName={DesignWork}
-          photoText= {"Screenshot of my design website."}
-          name="Design Work"
-          description="Check out my photography, graphic and digital design work. "
-          stack="Graphic Design | Photography | Adobe Suite"
-          />
+           
           <Card 
           projectLink={"https://slice-street-pizza.netlify.app/"}
           photoName={sliceStreet}
