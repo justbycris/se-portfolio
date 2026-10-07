@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
 import Kindred from './Pages/projects/kindred.jsx';
+import NationalParks from './Pages/projects/nationalparks.jsx'
 import ScrollToTop from "./components/ScrollTop.jsx";
 // import CustomCursor from "../assets/blob.svg";
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/kindred" element={<Kindred />}></Route>
+        <Route path="/nationalparks" element={<NationalParks />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>

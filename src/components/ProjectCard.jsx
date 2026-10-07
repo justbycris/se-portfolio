@@ -7,6 +7,7 @@ import bloggy from '../assets/Bloggy_Project_Screenshot.jpg';
 import BrewTrail from '../assets/BrewTrail.jpg';
 import DesignWork from '../assets/design.jpg'
 import kindredGifHome from '../assets/kindred-home-card.gif'
+import nationalParks from '../assets/np-gif.gif'
 import { Link } from 'react-router-dom';
 
 
@@ -16,14 +17,14 @@ export default function ProjectCard() {
     <div>
         <div className="flex flex-row justify-center w-full m-auto px-3 py-0 md: flex-wrap">
           <Card 
-          projectLink={"https://nebulaproject.netlify.app/#section1"}
-          photoName={nebulaProject}
-          photoText= {"Nebula project landing page."}
-          name="Nebula Project"
-          description="Fun landing page for a freelance creative agency."
-          stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
+          projectLink={"/nationalparks"}
+          photoName={nationalParks}
+          photoText= {"National Parks wiki project."}
+          name="National Parks Wiki"
+          description="Wiki project for exploring national parks."
+          stack="Next.js | React | TypeScript | Sanity | GROQ"
           />
- 
+
           <Card 
           projectLink={"/kindred"}
           photoName={kindredGifHome}
@@ -32,6 +33,15 @@ export default function ProjectCard() {
           description="Redesign of Kindred's browsing component."
           stack="UX/UI | HTML | CSS | JavaScript | Git | Netlify"
           />
+          <Card 
+          projectLink={"https://nebulaproject.netlify.app/#section1"}
+          photoName={nebulaProject}
+          photoText= {"Nebula project landing page."}
+          name="Nebula Project"
+          description="Fun landing page for a freelance creative agency."
+          stack="UI design | HTML | CSS | JavaScript | Git | Netlify"
+          />
+ 
 
           <Card 
           projectLink={"https://cristiguti.wixsite.com/design"}
