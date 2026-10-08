@@ -20,19 +20,33 @@ export default function NationalParks() {
        
           <div className=" max-w-2xl mx-auto p-8">
        <h1 className="font-medium py-4 font-extra text-lg text-slate-600">National Parks Wiki</h1>
-       {/* CTA to live project */}
-        <a
-            href="https://nationalparkswiki.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded mb-4"
-            >
-            Live project
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-        </a>
-     
+      <div className="flex flex-wrap items-center gap-3 my-4">
+  {/* Primary CTA - Live Project */}
+  <a
+    href="https://nationalparkswiki.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-lg shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+  >
+    <span>Live project</span>
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+    </svg>
+  </a>
+
+  {/* Secondary CTA - GitHub */}
+  <a
+    href="https://github.com/justbycris/national-parks"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 active:bg-gray-100 border border-gray-300 rounded-lg shadow-sm transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+  >
+    <span>GitHub Repository</span>
+    <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+    </svg>
+  </a>
+</div>
        <p className="font-extra text-md text-slate-600 whitespace-pre-line">Most park guides are directories: a list, a filter, a card for each place. I wanted to build one that also had something to say. The data suggested a story. Some of the biggest parks, especially in Alaska, get a tiny fraction of the visitors that much smaller parks do. So the project became two things: a good-looking guide to browse, and a chart that shows the contrast.
        <br></br> <br></br> I had three goals:<br></br> <br></br>
         1. A distinctive, editorial look, not a tutorial-app look.<br></br> 
