@@ -4,15 +4,15 @@ import Footer from '../../components/Footer.jsx';
 import ProjectBlog from '../../components/ProjectBlog.jsx';
 import { Link } from "react-router-dom";
 import kindredGif from '/src/assets/kindred.gif'
-import kindredDashboard from '/src/assets/Kindred-Original-Dasboard.jpg'
+import kindredDashboard from '/src/assets/Kindred-Original-Dasboard.webp'
 import kindredScreenshot from '/src/assets/kindred-original.jpg'
 import kindredActiveScreenshot from '/src/assets/Kindred-Original-Dasboard_Variants.jpg'
 import kindredScreenshot2 from '/src/assets/kindred-original-active.jpg'
-import kindredScreenshot3 from '/src/assets/kindred-original-active-mobile.png'
-import fixScreenshot1 from '/src/assets/Kindred-Fix-Dasboard_2.jpg' 
+import kindredScreenshot3 from '/src/assets/kindred-original-active-mobile.webp'
+import fixScreenshot1 from '/src/assets/Kindred-Fix-Dasboard_2.webp' 
 import fixScreenshot3 from '/src/assets/kindred-fix-screenshot-active.jpg' 
-import mobileDashboardOriginal from '/src/assets/Mobile-Kindred-Original-Dasboard.jpg' 
-import mobileDashboardFix from '/src/assets/Mobile-Kindred-fIx-Dasboard.jpg' 
+import mobileDashboardOriginal from '/src/assets/Mobile-Kindred-Original-Dasboard.webp' 
+import mobileDashboardFix from '/src/assets/Mobile-Kindred-fIx-Dasboard.webp' 
 
 export default function Kindred() {
   return (
