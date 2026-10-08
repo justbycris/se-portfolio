@@ -48,7 +48,7 @@ export default function ProjectCard() {
           photoName={DesignWork}
           photoText= {"Screenshot of my design website."}
           name="Design Work"
-          description="Check out my photography, graphic and digital design work. "
+          description="Check out my digital design work. "
           stack="Graphic Design | Photography | Adobe Suite"
           />
 
@@ -58,8 +58,8 @@ export default function ProjectCard() {
           photoName={nlsSignup}
           photoText= {"Newsletter signup window screenshot. "}
           name="Newsletter Sign Up page"
-          description="Designed & developed a responsive newsletter sign up page.  "
-          stack="UI design | Adobe XS | HTML | CSS | JavaScript | Sailthru "
+          description="Designed & coded a 788k user newsletter sign up page.  "
+          stack="Adobe XD | HTML | CSS | JavaScript | Sailthru "
           />
            
           <Card 
@@ -119,7 +119,7 @@ function Card({projectLink, photoName, photoText, name, description, stack}) {
     /* ---- CARD COMPONENT -----*/
     <div className="flex flex-col justify-center max-w-lg m-4 p-6 bg-gray-200 bg-opacity-50 rounded-2xl box-border hover:bg-opacity-80 cursor-pointer " >
       <Link to={projectLink}  {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}>
-        <img src={photoName} alt={photoText} className="my-4 shadow-md rounded-2xl w-sm"/> 
+        <img src={photoName} alt={photoText} className="my-4 shadow-md rounded-2xl w-sm" width="400px" height="auto"/> 
         <h1 className="text-bold text-xl font-custom py-0.5 font-medium text-slate-800">{name}</h1>
         <p className="text-md font-extra font-neutral text-slate-800 mb-3">{description}</p>
         <span className="text-md font-extra font-neutral text-slate-700">{stack}</span>
